@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@esm/index.mjs';
+import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@v0.1.1-esm/index.mjs';
 ```
 
 #### invert( obj\[, options] )
@@ -127,7 +127,7 @@ var out = invert( obj, {
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@esm/index.mjs';
+import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@v0.1.1-esm/index.mjs';
 
 // Create an array of random integers:
 var arr = discreteUniform( 1000, 0, 100 );
