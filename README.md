@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/object-inverse/tags). For example,
+
+```javascript
 import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@v0.1.1-deno/mod.js';
 ```
 
@@ -122,7 +127,7 @@ var out = invert( obj, {
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@v0.1.1-deno/mod.js';
+import invert from 'https://cdn.jsdelivr.net/gh/stdlib-js/object-inverse@deno/mod.js';
 
 // Create an array of random integers:
 var arr = discreteUniform( 1000, 0, 100 );
